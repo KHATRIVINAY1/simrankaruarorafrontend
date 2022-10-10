@@ -1,0 +1,75 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+    scroll-padding-top: 10rem;
+    /* overflow-x: hidden; */
+  }
+  
+  body {
+    font-family: 'Trirong', serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #000000;
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+  }
+
+  /* header */
+  .header{
+    background: linear-gradient(90.55deg, #C94CFE 0.45%, #8E46FF 99.52%);
+    padding: 2rem 1rem;
+  }
+
+  .nav-links, .nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+  }
+
+
+  .logo>a:link,.logo>a:visited{
+    font-style: italic;
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+  }
+  .nav-list{
+    gap:2rem;
+  }
+
+  .nav-link:link, .nav-link:visited{
+    font-size: 1.5rem;
+    color: white;
+  }
+
+  .nav-link:hover{
+    text-decoration: underline;
+  }
+
+  .a-btn:link, .a-btn:visited{
+    display: inline-block;
+    background: white;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #440084;
+    border-radius: 4px;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    font-weight: 500;
+    margin-top: 2rem;
+  }
+
+  .a-btn:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: skyblue;
+  }
