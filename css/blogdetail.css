@@ -1,0 +1,140 @@
+/* article section */
+.article-section{
+    margin: 6rem auto;
+}
+
+.blog-image{
+    max-width: 100%;
+    object-fit: cover;
+    margin: 0px auto;
+    display: block;
+}
+
+.blog-title{
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 1.5;
+    word-break: break-word;
+    margin: 1.5rem 0px;
+}
+
+.author-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.author-section>a:link, .author-section>a:visited{
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+}
+.author-img{
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    border-radius: 50%;
+    padding: 0.5rem;
+    border: 1px solid #3253FF;
+}
+
+.author-section>ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    gap: 1rem;
+}
+
+.social-links:link,.social-links:visited {
+    font-size: 1.3rem;
+    color: #00287A;
+}
+/* article section ends */
+
+
+/* article detail */
+article{
+    font-size: 1.8rem;
+    color: #000;
+    line-height: 1.7;
+    padding-top: 2rem;
+    overflow-x: hidden;
+}
+
+
+
+/* article pre{
+    background-color: #09005D;
+    padding: 2rem;
+    color: #fff;
+} */
+
+article::target-text {
+    margin-bottom: 100rem;
+    color: white;
+}
+article li, article p{
+    font-size: 1.8rem;
+    line-height: 1.7;
+}
+article a{
+    text-decoration:  none;
+}
+article h1{
+    font-size:3rem;
+}
+article h2{
+    font-size:2.5rem;
+}
+article h3{
+    font-size:2.3rem;
+}
+article h4{
+    font-size:2.1rem;
+}
+article h5{
+    font-size:1.9rem;
+}
+article h6{
+    font-size:1.6rem;
+}
+article p{
+    margin-bottom: 1.7rem;
+}
+article h1,article h2,article h3,article h5,article h4,article h6{
+    font-weight: bold;
+    margin-top: 2.8rem;
+    margin-bottom: 1.3rem;
+}
+article img{
+    display: block;
+}
+article pre{
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+article table, tbody, td, tr{
+    border:  1px solid #444;
+}
+article table td{
+    padding: 0.3rem 0.6rem;
+}
+
+article ul{
+    padding-left: 4rem;
+    margin-bottom: 2rem;
+}
+
+.hscroll{
+    overflow-x:auto ;
+}
+/* Article section ends */
+
+
+/* article detail ends */

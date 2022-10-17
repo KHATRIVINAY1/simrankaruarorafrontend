@@ -1,0 +1,28 @@
+.blog-section-title{
+    text-align: center;
+    margin: 2rem 0px;
+    font-size: 3rem;
+    line-height: 2.5;
+}
+
+.blog-card>img{
+    height: 27rem;
+}
+
+.search-input {
+    max-width: 33rem;
+    width: 100%;
+    background: #F6E3FF;
+    border: none;
+    font-size: 1.5rem;
+    box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;
+}
+
+.search-btn {
+    background: #AA58F8;
+    border: none;
+    color: white;
+    font-size: 1.3rem;
+    padding: 1rem 2rem;
+    box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;
+}
